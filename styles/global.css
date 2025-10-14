@@ -12,3 +12,12 @@
 body {
     font-family: "poppins", sans-serif;
 }
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue: #007AFF;
+    --gray: #F2F2F2;
+    --dark_gray: #808080;
+
+}
