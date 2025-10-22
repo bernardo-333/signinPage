@@ -112,13 +112,14 @@ main {
         justify-content: space-between;
     }
 
-    .sign_in {
+    button {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 10px;
         padding-bottom: 10px;
         background-color: var(--blue);
+        color: var(--white);
         border-radius: 6px;
         cursor: pointer;
     }
