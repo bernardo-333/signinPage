@@ -28,6 +28,7 @@ main {
     .formContainer {
         /* border: 1px solid green; */
         display: flex;
+        justify-content: center;
         flex-direction: column;
         width: 400px;
         margin-top: 48px;
@@ -45,7 +46,8 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 30px
+        gap: 20px
+
     }
 
     label {
@@ -59,6 +61,7 @@ main {
         padding-left: 16px;
         background-color: var(--gray);
         border-radius: 6px;
+
     }
 
     input::placeholder {
@@ -89,10 +92,16 @@ main {
     .rememberMe {
         display: flex;
         flex-direction: row;
-        gap: 8px;
+        align-items: center;
+        gap: 5px;
     }
 
-    #remember {
+    .rememberMe input {        
+        width: 15px;
+        height: 15px;
+    }
+
+    .remember {
         font-size: 12px;
     }
 
@@ -128,5 +137,35 @@ main {
         color: var(--white);
         font-weight: bold;
     }
+
+
+    /* Mudei a estrutura */
+
+    .sso {
+        background-color: var(--black);
+        gap: 8px;
+    }
+
+    .sso img {
+        width: 19.74px;
+        height: 20px;
+    }
+
+    .sso p {
+       font-size: 12px;
+    } 
+
+    .dontAccount {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .dontAccount a {
+        color: var(--blue);
+    }
+
+
 
 }
